@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif; /* Mengatur font untuk seluruh halaman */
+    background-color: #f0f0f0; /* Memberikan latar belakang yang lebih lembut */
+    color: #333; /* Mengatur warna teks */
+    line-height: 1.6; /* Meningkatkan jarak antar baris */
+}
+
+.sejarah-kampung {
+    border: 2px solid #f4f0f0; /* Mengatur border kotak */
+    padding: 120px; /* Memberikan jarak di dalam kotak */
+    margin: 20px; /* Memberikan jarak di luar kotak */
+    background-color: coral; /* Memberikan latar belakang kotak */
+    border-radius: 20px; /* Membuat sudut kotak membulat */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Memberikan bayangan yang lebih dalam */
+    transition: transform 0.3s; /* Menambahkan efek transisi */
+}
+
+.sejarah-kampung:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+.sejarah-kampung h1 {
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Menambahkan bayangan pada teks */
+}
+
+.sejarah-img {
+    border: 2px solid #f4f0f0; /* Mengatur border kotak */
+    padding: 15px; /* Memberikan jarak di dalam kotak */
+    margin: 20px; /* Memberikan jarak di luar kotak */
+    background-color: coral; /* Memberikan latar belakang kotak */
+    border-radius: 10px; /* Membuat sudut kotak membulat */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Memberikan bayangan yang lebih dalam */
+    transition: transform 0.3s; /* Menambahkan efek transisi */
+}
+
+.sejarah-img:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+.sejarah-img img {
+    width: 100%; /* Mengatur lebar gambar menjadi 100% dari elemen kontainer */
+    height: auto; /* Menjaga rasio aspek gambar agar tidak terdistorsi */
+    border-radius: 10px; /* Membuat sudut gambar membulat */
+}
+
+.sejarah-content {
+    border: 2px solid #f4f0f0; /* Mengatur border kotak */
+    padding: 20px; /* Memberikan jarak di dalam kotak */
+    margin: 20px; /* Memberikan jarak di luar kotak */
+    background-color: #fff; /* Memberikan latar belakang putih untuk kontras */
+    border-radius: 10px; /* Membuat sudut kotak membulat */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Memberikan bayangan yang lebih dalam */
+    transition: transform 0.3s; /* Menambahkan efek transisi */
+}
+
+.sejarah-content:hover {
+    transform: scale(1.02); /* Efek zoom saat hover */
+}
+
+.sejarah-content h1 {
+    font-size: 40px;
+    color: #e67e22; /* Mengubah warna judul */
+    border-bottom: 2px solid #e67e22; /* Menambahkan garis bawah pada judul */
+    padding-bottom: 10px; /* Memberikan jarak di bawah judul */
+}
+
+.sejarah-content p {
+    font-size: 18px; /* Mengatur ukuran font untuk paragraf */
+    margin-bottom: 15px; /* Memberikan jarak antar paragraf */
+}
+
+.sejarah-content ul {
+    font-size: 18px; /* Mengatur ukuran font untuk daftar */
+    padding-left: 20px; /* Memberikan jarak di sebelah kiri untuk daftar */
+}
+
+.sejarah-content ul li {
+    margin-bottom: 10px; /* Memberikan jarak antar item daftar */
+    position: relative; /* Mengatur posisi relatif untuk efek */
+}
+
+.sejarah-content ul li::before {
+    content: '✔'; /* Menambahkan simbol centang sebelum item */
+    color: #e67e22; /* Mengatur warna simbol centang */
+    position: absolute; /* Mengatur posisi simbol centang */
+    left: -20px; /* Mengatur jarak dari kiri */
+}

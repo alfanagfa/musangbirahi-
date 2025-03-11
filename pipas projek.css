@@ -1,0 +1,26 @@
+.pipas h6{
+    font-size: 45px;
+    color: var(--main-color);
+}
+.pipas p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.pipas li{
+    font-size: 25px;
+}
+.pipas h1{
+    text-align: center;
+font-size: 60px;
+color: var(--main-color);
+text-shadow: 0 0 25px var(--main-color);
+border-bottom: 3px solid transparent;
+}
+.pipas{
+    border: 2px solid #f4f0f0; /* Mengatur border kotak */
+    padding: 120px;          /* Memberikan jarak di dalam kotak */
+    margin: 5px;           /* Memberikan jarak di luar kotak */
+    background-color: coral; /* Memberikan latar belakang kotak */
+    border-radius: 20px;    /* Membuat sudut kotak membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan di sekitar kotak */
+}

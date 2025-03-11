@@ -1,0 +1,45 @@
+.kampung{
+    border: 2px solid #f4f0f0; /* Mengatur border kotak */
+    padding: 120px;          /* Memberikan jarak di dalam kotak */
+    margin: 5px;           /* Memberikan jarak di luar kotak */
+    background-color: coral; /* Memberikan latar belakang kotak */
+    border-radius: 20px;    /* Membuat sudut kotak membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan di sekitar kotak */
+}
+.kampung h1{
+    font-size: 50px;
+    text-align: center;
+}
+.img{
+    border: 2px solid #f4f0f0; /* Mengatur border kotak */
+    padding: 15px;          /* Memberikan jarak di dalam kotak */
+    margin: 20px;           /* Memberikan jarak di luar kotak */
+    background-color:coral; /* Memberikan latar belakang kotak */
+    border-radius: 10px;    /* Membuat sudut kotak membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan di sekitar kotak */
+}
+.img img{
+        width: 50%;   /* Mengatur lebar gambar menjadi 50% dari elemen kontainer */
+        height: auto; /* Menjaga rasio aspek gambar agar tidak terdistorsi */
+            display: flex;
+            justify-content: center;  /* Menengahkan gambar secara horizontal */
+            align-items: center;      /* Menengahkan gambar secara vertikal */
+}
+.sunda{
+    border: 2px solid #f4f0f0; /* Mengatur border kotak */
+    padding: 15px;          /* Memberikan jarak di dalam kotak */
+    margin: 20px;           /* Memberikan jarak di luar kotak */
+    background-color:coral; /* Memberikan latar belakang kotak */
+    border-radius: 10px;    /* Membuat sudut kotak membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan bayangan di sekitar kotak */
+}
+.sunda h1{
+    font-size: 40px;
+}
+.sunda p{
+    font-size: 20px;
+}
+
+.sunda ul{
+    font-size: 18px;
+}
